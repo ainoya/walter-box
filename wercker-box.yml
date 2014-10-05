@@ -12,7 +12,7 @@ script: |
   sudo apt-get update -y
   sudo apt-get install maven
   sudo apt-get install ruby
-  sudo apt-get install rubygems
+  sudo apt-get install ruby-dev
   sudo gem install bundle
   sudo gem install rake
   sudo gem install serverspec
