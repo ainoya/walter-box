@@ -7,7 +7,7 @@ description: wercker box for walter sample
 keywords:
   - walter
 packages:
-  - rethinkdb@1.6.1
+  - walter@0.0.1
 script: |
   sudo apt-get update -y
   sudo apt-get install maven
