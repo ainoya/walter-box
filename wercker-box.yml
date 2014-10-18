@@ -1,5 +1,5 @@
 name: walter
-version: 0.0.3
+version: 0.0.4
 inherits: jparyani/docker@1.0.1
 type: service
 platform: ubuntu@12.04
@@ -39,3 +39,8 @@ script: |
 
   # Make actual go workspace dir structure
   mkdir -p "$HOME/go/{src,pkg,bin}"
+
+  #install docker
+  sudo apt-get install -y curl
+  curl -sSL https://get.docker.io/ | sudo sh
+  sudo usermod -a -G docker $USER
