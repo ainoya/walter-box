@@ -1,6 +1,6 @@
 name: walter
 version: 0.0.5
-inherits: jparyani/docker@1.0.2
+inherits: jparyani/docker@1.0.1
 type: service
 platform: ubuntu@12.04
 description: wercker box for walter sample  
