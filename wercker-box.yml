@@ -1,5 +1,5 @@
 name: walter
-version: 0.0.5
+version: 0.0.6
 inherits: jparyani/docker@1.0.1
 type: service
 platform: ubuntu@12.04
