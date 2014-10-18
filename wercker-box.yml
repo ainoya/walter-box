@@ -1,6 +1,6 @@
 name: walter
 version: 0.0.6
-inherits: wercker-labs/docker
+inherits: wercker-labs/docker@0.0.3
 type: service
 platform: ubuntu@12.04
 description: wercker box for walter sample  
